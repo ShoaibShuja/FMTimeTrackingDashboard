@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+<body>
+
+  <div class="main__container">
+
+    <div class="tracking__main">
+      <div class="tracking__main-profile">
+        <img src="./images/image-jeremy.png" alt="profile image" />
+        <div class="tracking__main-profile__name">
+          <p>Report for</p>
+          <h1>Jeremy Robson</h1>
+        </div>
+      </div>
+      <div class="tracking__main-period">
+        <button class="period">Daily</button>
+        <button class="period active">Weekly</button>
+        <button class="period">Monthly</button>
+      </div>
+    </div>
+
+    <div class="tracking__container">
+
+      <div class="tracking__container-box">
+        <div class="box__upper" id="work"></div>
+        <div class="box__lower">
+          <div class="box__lower-profile">
+            <p class="profile__type" id="profile__work">Work</p>
+            <p class="triple__dot">...</p> 
+          </div>
+          <div class="periods">
+            <h1 class="period__time" id="time__work">32hrs</h1>
+            <p class="period__last" id="prev__work">Last Week - 36hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tracking__container-box">
+        <div class="box__upper" id="play"></div>
+        <div class="box__lower">
+          <div class="box__lower-profile">
+            <p class="profile__type">Play</p>
+            <p class="triple__dot">...</p> 
+          </div>
+          <div class="periods">
+            <h1 class="period__time" id="time__play">10hrs</h1>
+            <p class="period__last" id="prev__play">Last Week - 8hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tracking__container-box">
+        <div class="box__upper" id="study"></div>
+        <div class="box__lower">
+          <div class="box__lower-profile">
+            <p class="profile__type">Study</p>
+            <p class="triple__dot">...</p> 
+          </div>
+          <div class="periods">
+            <h1 class="period__time" id="time__study">4hrs</h1>
+            <p class="period__last" id="prev__study">Last Week - 7hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tracking__container-box">
+        <div class="box__upper" id="exercise"></div>
+        <div class="box__lower">
+          <div class="box__lower-profile">
+            <p class="profile__type">Exercise</p>
+            <p class="triple__dot">...</p> 
+          </div>
+          <div class="periods">
+            <h1 class="period__time" id="time__exercise">4hrs</h1>
+            <p class="period__last" id="prev__exercise">Last Week - 5hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tracking__container-box">
+        <div class="box__upper" id="social"></div>
+        <div class="box__lower">
+          <div class="box__lower-profile">
+            <p class="profile__type">Social</p>
+            <p class="triple__dot">...</p> 
+          </div>
+          <div class="periods">
+            <h1 class="period__time" id="time__social">5hrs</h1>
+            <p class="period__last" id="prev__social">Last Week - 10hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tracking__container-box">
+        <div class="box__upper" id="self__care"></div>
+        <div class="box__lower">
+          <div class="box__lower-profile">
+            <p class="profile__type">Self Care</p>
+            <p class="triple__dot">...</p> 
+          </div>
+          <div class="periods">
+            <h1 class="period__time" id="time__self-care">32hrs</h1>
+            <p class="period__last" id="prev__self-care">Last Week - 2hrs</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    <br /> 
+    Coded by <a href="https://www.frontendmentor.io/profile/ShoaibShuja">Shoaib Shuja</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
